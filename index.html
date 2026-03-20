@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Gabriel Augusto Dos Santos Rosa — Profissional Comercial & Desenvolvedor Digital">
+  <title>Gabriel Augusto | Portfólio</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Cursor -->
+<div id="cursor"></div>
+<div id="cursor-ring"></div>
+
+<!-- Partículas -->
+<canvas id="particles"></canvas>
+
+<!-- Mobile Menu -->
+<nav class="mobile-menu" id="mobileMenu">
+  <a href="#hero">Início</a>
+  <a href="#experiencia">Experiência</a>
+  <a href="#educacao">Educação</a>
+  <a href="#habilidades">Habilidades</a>
+  <a href="#contato">Contato</a>
+</nav>
+
+<!-- HEADER -->
+<header id="header">
+  <div class="container">
+    <div class="logo">Gabriel Augusto<span></span></div>
+    <ul class="nav-links">
+      <li><a href="#hero">Início</a></li>
+      <li><a href="#experiencia">Experiência</a></li>
+      <li><a href="#educacao">Educação</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="container">
+    <div class="hero-inner">
+
+      <!-- Texto -->
+      <div class="hero-text">
+        <div class="hero-tag">Profissional Comercial &amp; Dev Digital</div>
+        <h1 class="hero-name">
+          Gabriel<br>
+          Augusto<br>
+          <span class="line-2">Dos Santos Rosa</span>
+        </h1>
+        <p class="hero-desc">
+          Mais de 3 anos no mercado comercial com foco em vendas e resultados reais.
+          Solucionador de problemas. Transformo conversas em oportunidades.
+        </p>
+        <div class="hero-btns">
+          <a href="https://wa.me/5564993363339" target="_blank" rel="noopener" class="btn-primary">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+          </a>
+          <a href="#experiencia" class="btn-outline">
+            Ver Experiência <i class="fas fa-arrow-down"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Foto -->
+      <div class="hero-photo">
+        <div class="photo-deco-2"></div>
+        <div class="photo-frame">
+          <img src="gabriel.jpg" alt="Gabriel Augusto Dos Santos Rosa">
+        </div>
+        <div class="photo-deco"></div>
+        <div class="photo-badge">
+          <div class="badge-num">3+</div>
+          <div class="badge-label">Anos de mercado</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="scroll-hint">
+    <span>Scroll</span>
+    <i class="fas fa-chevron-down"></i>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- EXPERIÊNCIA -->
+<section id="experiencia" class="section section-alt">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="section-num-label">01 — Carreira</div>
+        <h2 class="section-title">Experiência <em>&amp; Atuação</em></h2>
+      </div>
+    </div>
+
+    <div class="exp-grid exp-grid-5">
+
+      <!-- Card 1: Vendas -->
+      <div class="exp-card reveal">
+        <div class="exp-card-top">
+          <div class="exp-card-icon"><i class="fas fa-chart-line"></i></div>
+          <div class="exp-card-num">01</div>
+        </div>
+        <h3>Vendas</h3>
+        <p>Atuação em todo o ciclo comercial, do primeiro contato ao fechamento. Foco em metas, conversão e resultados.</p>
+        <div class="exp-tags">
+          <span class="exp-tag">Vendas</span>
+          <span class="exp-tag">SDR</span>
+          <span class="exp-tag">Closer</span>
+        </div>
+      </div>
+
+      <!-- Card 2: Atendimento -->
+      <div class="exp-card reveal delay-1">
+        <div class="exp-card-top">
+          <div class="exp-card-icon"><i class="fas fa-headset"></i></div>
+          <div class="exp-card-num">02</div>
+        </div>
+        <h3>Atendimento &amp; Suporte</h3>
+        <p>Atendimento ao cliente com foco em satisfação e retenção. Experiência como Social Seller e Customer Success.</p>
+        <div class="exp-tags">
+          <span class="exp-tag">Atendimento</span>
+          <span class="exp-tag">Suporte</span>
+          <span class="exp-tag">Social Seller</span>
+          <span class="exp-tag">CS</span>
+        </div>
+      </div>
+
+      <!-- Card 3: Prospecção -->
+      <div class="exp-card reveal delay-2">
+        <div class="exp-card-top">
+          <div class="exp-card-icon"><i class="fas fa-bullseye"></i></div>
+          <div class="exp-card-num">03</div>
+        </div>
+        <h3>Prospecção &amp; Negociação</h3>
+        <p>Prospecção ativa de leads, qualificação estratégica e negociação com foco em fechamento de alto valor.</p>
+        <div class="exp-tags">
+          <span class="exp-tag">Prospecção Ativa</span>
+          <span class="exp-tag">Qualificação de Leads</span>
+          <span class="exp-tag">Negociação e Fechamento</span>
+        </div>
+      </div>
+
+      <!-- Card 4: Tráfego Pago -->
+      <div class="exp-card reveal delay-3">
+        <div class="exp-card-top">
+          <div class="exp-card-icon"><i class="fas fa-rectangle-ad"></i></div>
+          <div class="exp-card-num">04</div>
+        </div>
+        <h3>Gestão de Tráfego Pago</h3>
+        <p>Planejamento e gestão de campanhas pagas para geração de leads qualificados e retorno sobre investimento.</p>
+        <div class="exp-tags">
+          <span class="exp-tag">Tráfego Pago</span>
+          <span class="exp-tag">Campanhas</span>
+          <span class="exp-tag">ROI</span>
+        </div>
+      </div>
+
+      <!-- Card 5: Desenvolvimento -->
+      <div class="exp-card reveal delay-4">
+        <div class="exp-card-top">
+          <div class="exp-card-icon"><i class="fas fa-code"></i></div>
+          <div class="exp-card-num">05</div>
+        </div>
+        <h3>Desenvolvimento Web</h3>
+        <p>Criação de Landing Pages de alta conversão e sites completos com HTML, CSS e JavaScript voltados para resultado.</p>
+        <div class="exp-tags">
+          <span class="exp-tag">Landing Pages</span>
+          <span class="exp-tag">Criação de Sites</span>
+          <span class="exp-tag">HTML · CSS · JS</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- EDUCAÇÃO -->
+<section id="educacao" class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="section-num-label">02 — Formação</div>
+        <h2 class="section-title">Educação <em>&amp; Base</em></h2>
+      </div>
+    </div>
+
+    <div class="edu-block reveal">
+      <div class="edu-left">
+        <div class="edu-label">Ensino Superior</div>
+        <h3>Tecnologia em Sistemas para Internet</h3>
+        <p class="inst">Instituto Federal de Goiano IFG</p>
+      </div>
+      <div class="edu-right">
+        <div class="edu-item">
+          <i class="fas fa-laptop-code"></i>
+          <div class="edu-item-text">
+            <div class="edu-item-label">Foco</div>
+            <p>Desenvolvimento web, sistemas digitais e tecnologia aplicada</p>
+          </div>
+        </div>
+        <div class="edu-item">
+          <i class="fas fa-building-columns"></i>
+          <div class="edu-item-text">
+            <div class="edu-item-label">Instituição</div>
+            <p>Instituto Federal de Goiano</p>
+          </div>
+        </div>
+        <div class="edu-item">
+          <i class="fas fa-graduation-cap"></i>
+          <div class="edu-item-text">
+            <div class="edu-item-label">Curso</div>
+            <p>TSI — Tecnologia em Sistemas para Internet</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- HABILIDADES -->
+<section id="habilidades" class="section section-alt">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="section-num-label">03 — Competências</div>
+        <h2 class="section-title">Habilidades <em>&amp; Soft Skills</em></h2>
+      </div>
+    </div>
+
+    <div class="skills-list">
+
+      <div class="skill-item reveal">
+        <div class="skill-icon"><i class="fas fa-users"></i></div>
+        <p>Gestão de Pessoas</p>
+      </div>
+
+      <div class="skill-item reveal delay-1">
+        <div class="skill-icon"><i class="fas fa-chess"></i></div>
+        <p>Tomada de Decisões Estratégicas</p>
+      </div>
+
+      <div class="skill-item reveal delay-2">
+        <div class="skill-icon"><i class="fas fa-lightbulb"></i></div>
+        <p>Resolução de Problemas Complexos</p>
+      </div>
+
+      <div class="skill-item reveal delay-3">
+        <div class="skill-icon"><i class="fas fa-handshake"></i></div>
+        <p>Prospecção e Fidelização de Clientes</p>
+      </div>
+
+      <div class="skill-item reveal">
+        <div class="skill-icon"><i class="fas fa-magnifying-glass-chart"></i></div>
+        <p>Análise de Mercado e Concorrência</p>
+      </div>
+
+      <div class="skill-item reveal delay-1">
+        <div class="skill-icon"><i class="fas fa-brain"></i></div>
+        <p>Inteligência Emocional</p>
+      </div>
+
+      <div class="skill-item reveal delay-2">
+        <div class="skill-icon"><i class="fas fa-clock"></i></div>
+        <p>Gestão de Tempo e Produtividade</p>
+      </div>
+
+      <div class="skill-item reveal delay-3">
+        <div class="skill-icon"><i class="fas fa-people-group"></i></div>
+        <p>Trabalho em Equipe</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- CONTATO -->
+<section id="contato" class="section">
+  <div class="container">
+    <div class="contato-grid">
+
+      <div class="contato-text reveal">
+        <p class="section-num-label" style="margin-bottom:16px">04 — Contato</p>
+        <div class="big-text">
+          Vamos<br>conversar<em>de verdade?</em>
+        </div>
+      
+      </div>
+
+      <div class="reveal delay-2">
+        <div class="social-stack">
+
+          <a href="https://wa.me/5564993363339" target="_blank" rel="noopener" class="social-item">
+            <div class="social-icon"><i class="fab fa-whatsapp"></i></div>
+            <div class="social-info">
+              <div class="social-label">WhatsApp</div>
+              <div class="social-value">(64) 99336-3339</div>
+            </div>
+            <i class="fas fa-arrow-right social-arrow"></i>
+          </a>
+
+          <a href="https://www.instagram.com/gabriel.aaugusto__?igsh=N2VuczRwdHRuYTln" target="_blank" rel="noopener" class="social-item">
+            <div class="social-icon"><i class="fab fa-instagram"></i></div>
+            <div class="social-info">
+              <div class="social-label">Instagram</div>
+              <div class="social-value">@gabriel.aaugusto__
+</div>
+            </div>
+            <i class="fas fa-arrow-right social-arrow"></i>
+          </a>
+
+          <a href="SEU_LINK_LINKEDIN" target="_blank" rel="noopener" class="social-item">
+            <div class="social-icon"><i class="fab fa-linkedin-in"></i></div>
+            <div class="social-info">
+              <div class="social-label">LinkedIn</div>
+              <div class="social-value">LinkedIn</div>
+            </div>
+            <i class="fas fa-arrow-right social-arrow"></i>
+          </a>
+
+          <a href="mailto:SEU_EMAIL" class="social-item">
+            <div class="social-icon"><i class="fas fa-envelope"></i></div>
+            <div class="social-info">
+              <div class="social-label">E-mail</div>
+              <div class="social-value">gabrielaugustodossantos.rosa@gmail.com</div>
+            </div>
+            <i class="fas fa-arrow-right social-arrow"></i>
+          </a>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="footer">
+  <div class="container">
+    <div class="footer-logo">Gabriel Augusto<span style="color:var(--cinza-medio)">.</span></div>
+    <p class="footer-copy">© 2026 <span>Gabriel Augusto Dos Santos Rosa</span> — Todos os direitos reservados</p>
+    <a href="#hero" class="footer-top" id="btnTopo">
+      Topo <i class="fas fa-arrow-up"></i>
+    </a>
+  </div>
+</footer>
+
+<!-- JS -->
+<script src="script.js"></script>
+</body>
+</html>
